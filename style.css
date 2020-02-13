@@ -1,0 +1,363 @@
+/* Your board style here */
+@import '//fonts.googleapis.com/css?family=Bangers';
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+button {
+  font-family: "Roboto", sans-serif; }
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+
+.timers-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc(30rem * 2);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.timers-container-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc(70rem * 2);
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.timers-container .timer-container:nth-of-type(1) {
+  background-color: #FFC107; }
+  .timers-container .timer-container:nth-of-type(1) .start-button {
+    color: #ff9807; }
+  .timers-container .timer-container:nth-of-type(1) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
+    color: #ff9807; }
+
+.timers-container .timer-container:nth-of-type(2) {
+  background-color: #8BC34A; }
+  .timers-container .timer-container:nth-of-type(2) .start-button {
+    color: #9fc34a; }
+  .timers-container .timer-container:nth-of-type(2) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
+    color: #9fc34a; }
+
+.timers-container .timer-container:nth-of-type(3) {
+  background-color: #3949AB; }
+  .timers-container .timer-container:nth-of-type(3) .start-button {
+    color: #395cab; }
+  .timers-container .timer-container:nth-of-type(3) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
+    color: #395cab; }
+
+.timers-container .timer-container:nth-of-type(4) {
+  background-color: #D81B60; }
+  .timers-container .timer-container:nth-of-type(4) .start-button {
+    color: #d81b80; }
+  .timers-container .timer-container:nth-of-type(4) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
+    color: #d81b80; }
+
+.timers-container .timer-container:nth-of-type(5) {
+  background-color: #FFC107; }
+  .timers-container .timer-container:nth-of-type(5) .start-button {
+    color: #ff9807; }
+  .timers-container .timer-container:nth-of-type(5) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
+    color: #ff9807; }
+
+.timers-container .timer-container:nth-of-type(6) {
+  background-color: #8BC34A; }
+  .timers-container .timer-container:nth-of-type(6) .start-button {
+    color: #9fc34a; }
+  .timers-container .timer-container:nth-of-type(6) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
+    color: #9fc34a; }
+
+.timers-container .timer-container:nth-of-type(7) {
+  background-color: #3949AB; }
+  .timers-container .timer-container:nth-of-type(7) .start-button {
+    color: #395cab; }
+  .timers-container .timer-container:nth-of-type(7) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
+    color: #395cab; }
+
+.timers-container .timer-container:nth-of-type(8) {
+  background-color: #D81B60; }
+  .timers-container .timer-container:nth-of-type(8) .start-button {
+    color: #d81b80; }
+  .timers-container .timer-container:nth-of-type(8) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
+    color: #d81b80; }
+
+
+    .timers-container-2 .timer-container:nth-of-type(1) {
+      background-color: #FFC107; }
+      .timers-container .timer-container:nth-of-type(1) .start-button {
+        color: #ff9807; }
+      .timers-container .timer-container:nth-of-type(1) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
+        color: #ff9807; }
+
+    .timers-container-2 .timer-container:nth-of-type(3) {
+      background-color: #8BC34A; }
+      .timers-container .timer-container:nth-of-type(3) .start-button {
+        color: #9fc34a; }
+      .timers-container .timer-container:nth-of-type(3) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
+        color: #9fc34a; }
+
+    .timers-container-2 .timer-container:nth-of-type(2) {
+      background-color: #3949AB; }
+      .timers-container .timer-container:nth-of-type(2) .start-button {
+        color: #395cab; }
+      .timers-container .timer-container:nth-of-type(2) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
+        color: #395cab; }
+
+    .timers-container-2 .timer-container:nth-of-type(4) {
+      background-color: #D81B60; }
+      .timers-container .timer-container:nth-of-type(4) .start-button {
+        color: #d81b80; }
+      .timers-container .timer-container:nth-of-type(4) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
+        color: #d81b80; }
+
+    .timers-container-2 .timer-container:nth-of-type(6) {
+      background-color: #FFC107; }
+      .timers-container .timer-container:nth-of-type(6) .start-button {
+        color: #ff9807; }
+      .timers-container .timer-container:nth-of-type(6) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
+        color: #ff9807; }
+
+    .timers-container-2 .timer-container:nth-of-type(5) {
+      background-color: #8BC34A; }
+      .timers-container .timer-container:nth-of-type(5) .start-button {
+        color: #9fc34a; }
+      .timers-container .timer-container:nth-of-type(5) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
+        color: #9fc34a; }
+
+    .timers-container-2 .timer-container:nth-of-type(7) {
+      background-color: #3949AB; }
+      .timers-container .timer-container:nth-of-type(7) .start-button {
+        color: #395cab; }
+      .timers-container .timer-container:nth-of-type(7) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
+        color: #395cab; }
+
+    .timers-container-2 .timer-container:nth-of-type(8) {
+      background-color: #D81B60; }
+      .timers-container .timer-container:nth-of-type(8) .start-button {
+        color: #d81b80; }
+      .timers-container .timer-container:nth-of-type(8) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
+        color: #d81b80; }
+
+.set-timer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  position: relative; }
+
+.error {
+  border-bottom: 2px solid red;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #212121;
+  top: 5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.timer-container {
+  width: 30rem;
+  height: 30rem;
+  text-align: center;
+  position: relative; }
+  .timer-container form {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center; }
+
+.default-name {
+  border-bottom: 2px solid transparent;
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+  position: relative;
+  cursor: pointer; }
+  .default-name:hover {
+    border-bottom: 2px solid white; }
+
+.fa.fa-pencil {
+  color: #212121;
+  font-size: .9rem;
+  position: absolute;
+  top: .4rem;
+  right: -1rem; }
+
+.timer-container input[name="name"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  width: 40%;
+  height: 3rem; }
+
+.timer-container input[name="minutes"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  display: block;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  width: 70%;
+  height: 40%;
+  padding: 1rem; }
+  .timer-container input[name="minutes"]::-webkit-input-placeholder {
+    color: #212121;
+    font-size: 1.6rem; }
+  .timer-container input[name="minutes"]:-ms-input-placeholder {
+    color: #212121;
+    font-size: 1.6rem; }
+  .timer-container input[name="minutes"]::placeholder {
+    color: #212121;
+    font-size: 1.6rem; }
+
+.start-button {
+  background: white;
+  border: 1px solid #F5F5F5;
+  border-radius: 2px;
+  width: 50%;
+  height: 3rem;
+  font-size: 2rem; }
+
+.active-timer {
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%; }
+
+.active-timer-name {
+  font-size: 3rem;
+  margin: 0; }
+
+.display-timer {
+  font-size: 8rem; }
+
+.buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%; }
+
+.pause-button, .reset-button {
+  width: 10rem;
+  background: white;
+  border: 1px solid #F5F5F5;
+  border-radius: 2px;
+  color: #212121;
+  cursor: pointer;
+  font-size: 1.8rem; }
+  .pause-button:disabled, .reset-button:disabled {
+    display: none; }
+
+
+body{
+  text-align: center;
+  background: black;
+  font-family:Bangers;
+  font-weight: 100;
+}
+
+h1{
+  color: black;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+    font-family:Bangers;
+    color: #8A0707;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 100px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    /*background: #00BF96;*/
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    /*background: black;*/
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.foot h1 {
+  color: #8A0707;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
