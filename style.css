@@ -1,5 +1,4 @@
 /* Your board style here */
-@import '//fonts.googleapis.com/css?family=Bangers';
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
@@ -56,9 +55,8 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-  img {
-
-      }
+background: rgb(0,36,35);
+background: linear-gradient(90deg, rgba(0,36,35,1) 0%, rgba(73,123,190,1) 35%, rgba(238,238,238,1) 100%);
 
 .timers-container .timer-container:nth-of-type(1) {
   background-color: #FFC107; }
@@ -118,56 +116,57 @@ h1 {
 
 
     .timers-container-2 .timer-container:nth-of-type(1) {
-      background-color: #FFC107; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212);
+ }
       .timers-container .timer-container:nth-of-type(1) .start-button {
         color: #ff9807; }
       .timers-container .timer-container:nth-of-type(1) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
         color: #ff9807; }
 
     .timers-container-2 .timer-container:nth-of-type(3) {
-      background-color: #8BC34A; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212);}
       .timers-container .timer-container:nth-of-type(3) .start-button {
         color: #9fc34a; }
       .timers-container .timer-container:nth-of-type(3) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
         color: #9fc34a; }
 
     .timers-container-2 .timer-container:nth-of-type(2) {
-      background-color: #3949AB; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(2) .start-button {
         color: #395cab; }
       .timers-container .timer-container:nth-of-type(2) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
         color: #395cab; }
 
     .timers-container-2 .timer-container:nth-of-type(4) {
-      background-color: #D81B60; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(4) .start-button {
         color: #d81b80; }
       .timers-container .timer-container:nth-of-type(4) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
         color: #d81b80; }
 
     .timers-container-2 .timer-container:nth-of-type(6) {
-      background-color: #FFC107; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(6) .start-button {
         color: #ff9807; }
       .timers-container .timer-container:nth-of-type(6) .pause-button, .timers-container .timer-container:nth-of-type(1) .reset-button {
         color: #ff9807; }
 
     .timers-container-2 .timer-container:nth-of-type(5) {
-      background-color: #8BC34A; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(5) .start-button {
         color: #9fc34a; }
       .timers-container .timer-container:nth-of-type(5) .pause-button, .timers-container .timer-container:nth-of-type(2) .reset-button {
         color: #9fc34a; }
 
     .timers-container-2 .timer-container:nth-of-type(7) {
-      background-color: #3949AB; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(7) .start-button {
         color: #395cab; }
       .timers-container .timer-container:nth-of-type(7) .pause-button, .timers-container .timer-container:nth-of-type(3) .reset-button {
         color: #395cab; }
 
     .timers-container-2 .timer-container:nth-of-type(8) {
-      background-color: #D81B60; }
+      background-image: linear-gradient(to right top, #1135e5, #8d009f, #9b005f, #8b002f, #6e1212); }
       .timers-container .timer-container:nth-of-type(8) .start-button {
         color: #d81b80; }
       .timers-container .timer-container:nth-of-type(8) .pause-button, .timers-container .timer-container:nth-of-type(4) .reset-button {
